@@ -1,0 +1,35 @@
+{
+  "name": "nend",
+  "version": "1.0.0",
+  "description": "Node js framework build over nanoexpress and inspired from nestjs",
+  "main": "main",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguerram/nend.git"
+  },
+  "keywords": [
+    "nodejs",
+    "framework",
+    "mvc",
+    "nextjs",
+    "nanoexpress",
+    "nest",
+    "speed"
+  ],
+  "author": "Mostafa AGUERRAM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aguerram/nend/issues"
+  },
+  "homepage": "https://github.com/aguerram/nend#readme",
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "nanoexpress": "^1.1.13"
+  }
+}
