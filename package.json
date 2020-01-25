@@ -4,7 +4,8 @@
   "description": "Node js framework build over nanoexpress and inspired from nestjs",
   "main": "main",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build":"echo Start building your project && webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -26,8 +27,10 @@
   },
   "homepage": "https://github.com/aguerram/nend#readme",
   "devDependencies": {
+    "@types/node": "^13.5.0",
     "ts-loader": "^6.2.1",
-    "typescript": "^3.7.5"
+    "typescript": "^3.7.5",
+    "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
     "nanoexpress": "^1.1.13"
